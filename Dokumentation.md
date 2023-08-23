@@ -18,8 +18,8 @@ In meinem Projekt werde ich ein Programm coden, wo man eine zufällige Zahl erra
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |                 |      | Als ein Benutzer möchte ich , |
-| ...  |                 |      |                                    |
+| 1    |  kann               | Rand     | Als ein Benutzer möchte ich ein Geräusch hören, je nachdem ob meine Zahl zu hoch oder zu niedrig ist, damit  |
+| 2  |  Muss              | Funktional     | Als Benutzer möchte ich bescheid wissen, wie weit ich von der Geheimzahl entfernt bin, damit ich nicht stundenlang zufällige Zahlen eingeben muss. |
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
