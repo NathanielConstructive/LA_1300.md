@@ -18,13 +18,16 @@ In meinem Projekt werde ich ein Programm coden, wo man eine zufällige Zahl erra
 
 | US-№ | Verbindlichkeit | Typ  | Beschreibung                       |
 | ---- | --------------- | ---- | ---------------------------------- |
-| 1    |  kann               | Rand     | Als ein Benutzer möchte ich ein Geräusch hören, je nachdem ob meine Zahl zu hoch oder zu niedrig ist, damit  |
-| 2  |  Muss              | Funktional     | Als Benutzer möchte ich bescheid wissen, wie weit ich von der Geheimzahl entfernt bin, damit ich nicht stundenlang zufällige Zahlen eingeben muss. |
-|3|muss|funktional|Als ein Benutzer möchte ich mehrere Versuche haben, damit ich eine Chance habe, die Zahl zu erraten|
-|4|kann|rand|Als Benutzer möchte ich einen Weissen Hintergrund haben, damit ich beim spielen nicht einschlafe.|
-|5|kann|rand|Als Benutzer möchte ich eine schwarze Schriftfarbe haben, damit ich es gut auf dem weissen Hintergrund sehe.|
-|6|muss|qualität|Als Benutzer möchte ich, dass das Programm kurz stoppt, falls ich etwas ungültiges eingebe und mir sagt, dass es ungültig ist, damit nichts anderes passiert, wie dass das Programm abstürzt. |
-|7|kann|Rand|Als Benutzer möchte ich, dass das Programm mir meine Versüche am Schluss aufzählt, damit ich mich mit meinen Freunden messen kann.|
+|1|muss|funktional|Als Benutzer möchte ich, dass das Programm eine Geheimzahl aussucht, zwischen 1-100.|
+|2|muss|funktional|Als Benutzer möchte ich die Zahl erraten können.|
+| 3    |  kann               | Rand     | Als ein Benutzer möchte ich ein Geräusch hören, je nachdem ob meine Zahl zu hoch oder zu niedrig ist, damit ich ein besseres Gefühl habe, beim erraten.  |
+| 4  |  Muss              | Funktional     | Als Benutzer möchte ich bescheid wissen, wie weit ich von der Geheimzahl entfernt bin, damit ich nicht stundenlang zufällige Zahlen eingeben muss. |
+|5|muss|funktional|Als ein Benutzer möchte ich mehrere Versuche haben, damit ich eine Chance habe, die Zahl zu erraten.|
+|6|kann|rand|Als Benutzer möchte ich einen Weissen Hintergrund haben, damit ich beim spielen nicht einschlafe.|
+|7|kann|rand|Als Benutzer möchte ich eine schwarze Schriftfarbe haben, damit ich es gut auf dem weissen Hintergrund sehe.|
+|8|muss|qualität|Als Benutzer möchte ich, dass das Programm kurz stoppt, falls ich etwas ungültiges eingebe und mir sagt, dass es ungültig ist, damit nichts anderes passiert, wie dass das Programm abstürzt. |
+|9|kann|Rand|Als Benutzer möchte ich, dass das Programm mir meine Versüche am Schluss aufzählt, damit ich mich mit meinen Freunden messen kann.|
+
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
