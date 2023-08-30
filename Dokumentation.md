@@ -22,8 +22,8 @@ In meinem Projekt werde ich ein Programm coden, wo man eine zufällige Zahl erra
 | 2  |  Muss              | Funktional     | Als Benutzer möchte ich bescheid wissen, wie weit ich von der Geheimzahl entfernt bin, damit ich nicht stundenlang zufällige Zahlen eingeben muss. |
 |3|muss|funktional|Als ein Benutzer möchte ich mehrere Versuche haben, damit ich eine Chance habe, die Zahl zu erraten|
 |4|kann|rand|Als Benutzer möchte ich einen Weissen Hintergrund haben, damit ich beim spielen nicht einschlafe.|
-|5||||
-|6||||
+|5|kann|rand|Als Benutzer möchte ich eine schwarze Schriftfarbe haben, damit ich es gut auf dem weissen Hintergrund sehe.|
+|6|muss|qualität|Als Benutzer möchte ich, dass das Programm kurz stoppt, falls ich etwas ungültiges eingebe und mir sagt, dass es ungültig ist, damit nichts anderes passiert, wie dass das Programm abstürzt. |
 |7||||
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
