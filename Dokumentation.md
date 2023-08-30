@@ -4,8 +4,8 @@ Mirhan Özden
 
 | Datum | Version | Zusammenfassung                                              |
 | ----- | ------- | ------------------------------------------------------------ |
-| 23.08      | 0.0.1   | ✍️ Jedes Mal, wenn Sie an dem Projekt arbeiten, fügen Sie hier eine neue Zeile ein und beschreiben in *einem* Satz, was Sie erreicht haben. |
-|       | ...     |                                                              |
+| 23.08      | 0.0.1   | Man kann erraten und die Geheime Zahl wird ausgesucht |
+| 30.8      | 0.0.2     |Während dem Raten gibt es Hilfe und es wird alles abgefangen, was ungültig ist.|
 |       | 1.0.0   |                                                              |
 
 ## 1 Informieren
@@ -21,40 +21,45 @@ In meinem Projekt werde ich ein Programm coden, wo man eine zufällige Zahl erra
 |1|muss|funktional|Als Benutzer möchte ich, dass das Programm eine Geheimzahl aussucht, zwischen 1-100.|
 |2|muss|funktional|Als Benutzer möchte ich die Zahl erraten können.|
 | 3    |  kann               | Rand     | Als ein Benutzer möchte ich ein Geräusch hören, je nachdem ob meine Zahl zu hoch oder zu niedrig ist, damit ich ein besseres Gefühl habe, beim erraten.  |
-| 4  |  Muss              | Funktional     | Als Benutzer möchte ich bescheid wissen, wie weit ich von der Geheimzahl entfernt bin, damit ich nicht stundenlang zufällige Zahlen eingeben muss. |
-|5|muss|funktional|Als ein Benutzer möchte ich mehrere Versuche haben, damit ich eine Chance habe, die Zahl zu erraten.|
-|6|kann|rand|Als Benutzer möchte ich einen Weissen Hintergrund haben, damit ich beim spielen nicht einschlafe.|
-|7|kann|rand|Als Benutzer möchte ich eine schwarze Schriftfarbe haben, damit ich es gut auf dem weissen Hintergrund sehe.|
-|8|muss|qualität|Als Benutzer möchte ich, dass das Programm kurz stoppt, falls ich etwas ungültiges eingebe und mir sagt, dass es ungültig ist, damit nichts anderes passiert, wie dass das Programm abstürzt. |
-|9|kann|Rand|Als Benutzer möchte ich, dass das Programm mir meine Versüche am Schluss aufzählt, damit ich mich mit meinen Freunden messen kann.|
-
-
-✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
+| 4  |  Muss              | Funktional     | Als Benutzer möchte ich bescheid wissen, ob meine gerratene Zahl höher oder niedriger als die Geheimzahl ist, damit ich nicht stundenlang zufällige Zahlen eingeben muss. |
+|5|muss|funktional|Als Benutzer möchte ich eine Nachricht bekommen, wenn ich die Geheimzahl erraten habe, damit ich das Spiel fertig spielen kann.|
+|6|muss|funktional|Als ein Benutzer möchte ich mehrere Versuche haben, damit ich eine Chance habe, die Zahl zu erraten.|
+|7|kann|rand|Als Benutzer möchte ich einen Weissen Hintergrund haben, damit ich beim spielen nicht einschlafe.|
+|8|kann|rand|Als Benutzer möchte ich eine schwarze Schriftfarbe haben, damit ich es gut auf dem weissen Hintergrund sehe.|
+|9|muss|qualität|Als Benutzer möchte ich, dass das Programm kurz stoppt, falls ich etwas Ungültiges eingebe und mir sagt, dass es ungültig ist, damit nichts anderes passiert, wie zum Beispiel dass das Programm abstürzt. |
+|10|kann|Rand|Als Benutzer möchte ich, dass das Programm mir meine Versüche und meinen Namen am Schluss aufzeigt, damit ich mich mit meinen Freunden messen kann.|
 
 ### 1.3 Testfälle
 
 | TC-№ | Ausgangslage | Eingabe | Erwartete Ausgabe |
 | ---- | ------------ | ------- | ----------------- |
-| 1.1  | Eine gültige und richtige Zahl wird erraten |  Die Zahl "20"       |    Die Geheimzahl wurde erraten. |
-| ...  |              |         |                   |
-
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
+|1.1|Die Zahl wird ausgesucht|-|-|
+|2.1|Eine Zahl wird eingegeben|4|-|
+|3.1|Zahl wird erraten|50(Die Zahl ist grösser als die Geheimzahl)|Ein hohes Piepsen kommt, da die Geheimzahl höher ist.|
+|4.1|Eine zu nierige Zahl wird eingegeben|40|Eine Nachricht kommt, wo es sagt, dass die Geheimzahl noch höher ist und dass die eingegebene Zahl zu niedrig ist.|
+|5.1  | Eine gültige und richtige Zahl wird erraten |  Die Zahl "20"       |    Die Geheimzahl wurde erraten. |
+|6.1   | Mehrere Versüche sind möglich | eine gültig aber falsche Zahl(40)        |  "Gib deine Vermutung ein"                 |
+|7.1|Die Hintergrundfarbe wird geändert|-|ein weisser Hintergrund|
+|8.1|Die Schriftfarbe wird schwarz|-|eine schwarze Schrift|
+|9.1|Eine ungültige Eingabe wird eingegeben.|Ungültige Eingabe(Hallo)|Bitte gib eine gültige Zahl ein. Gib deine Vermutung ein:|
+|10.1|Das Spiel ist abgeschlossen|die richtige Zahl und der Name|Highscore List: Player: Mirhan, Attempts: 5|
 
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  | 23.8      |           |              |               |
-| ...  |  23.8     |           |              |               |
-| ...  |  23.8     |           |              |               |
-| ...  |  23.8     |           |              |               |
-| ...  |  23.8     |           |              |               |
-| ...  |  23.8     |           |              |               |
-| ...  |  23.8     |           |              |               |
-| ...  |  23.8     |           |              |               |
-| ...  |  23.8     |           |              |               |
+| 1.A  | 23.8      |  Mirhan Özden         |  Geheimzahl wird ausgesucht.            |    45 Minuten           |
+| 2.A  |  23.8     | Mirhan Özden           |  Zahl kann eingegeben werden            |   20 Minuten            |
+| 3.A  |  23.8     |  Mirhan Özden          |  Geheimzahl wird erraten            |               |
+| 4.A  |  23.8     |  Mirhan Özden          |   Falls eingegebene Zahl zu grösser oder zu niedrig ist, wird dies gesagt           |               |
+| 5.A  |  23.8     |  Mirhan Özden          |              |               |
+| 6.A  |  30.8     |  Mirhan Özden          |              |               |
+| 7.A  |  30.8     |  Mirhan Özden          |              |               |
+| 8.A  |  30.8     |  Mirhan Özden          |              |               |
+| 9.A  |  30.8     |  Mirhan Özden          |              |               |
+|10.A|    30.8     |  Mirhan Özden          |              |               |
 
-Total: 
+Total: 10
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
 
