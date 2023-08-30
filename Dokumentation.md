@@ -20,6 +20,11 @@ In meinem Projekt werde ich ein Programm coden, wo man eine zufällige Zahl erra
 | ---- | --------------- | ---- | ---------------------------------- |
 | 1    |  kann               | Rand     | Als ein Benutzer möchte ich ein Geräusch hören, je nachdem ob meine Zahl zu hoch oder zu niedrig ist, damit  |
 | 2  |  Muss              | Funktional     | Als Benutzer möchte ich bescheid wissen, wie weit ich von der Geheimzahl entfernt bin, damit ich nicht stundenlang zufällige Zahlen eingeben muss. |
+|3|muss|funktional|Als ein Benutzer möchte ich mehrere Versuche haben, damit ich eine Chance habe, die Zahl zu erraten|
+|4|kann|rand|Als Benutzer möchte ich einen Weissen Hintergrund haben, damit ich beim spielen nicht einschlafe.|
+|5||||
+|6||||
+|7||||
 
 ✍️ Jede User Story hat eine ganzzahlige Nummer (1, 2, 3 etc.), eine Verbindlichkeit (Muss oder Kann?), und einen Typ (Funktional, Qualität, Rand). Die User Story selber hat folgende Form: *Als ein 🤷‍♂️ möchte ich 🤷‍♂️, damit 🤷‍♂️*.
 
@@ -32,16 +37,19 @@ In meinem Projekt werde ich ein Programm coden, wo man eine zufällige Zahl erra
 
 ✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, die der Testfall abdeckt, und `m` von `1` an nach oben gezählt. Beispiel: Der dritte Testfall, der die zweite User Story abdeckt, hat also die Nummer `2.3`.
 
-### 1.4 Diagramme
-
-✍️ Hier können Sie PAPs, Use Case- und Gantt-Diagramme oder Ähnliches einfügen.
-
 ## 2 Planen
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  |       |           |              |               |
-| ...  |       |           |              |               |
+| 1.A  | 23.8      |           |              |               |
+| ...  |  23.8     |           |              |               |
+| ...  |  23.8     |           |              |               |
+| ...  |  23.8     |           |              |               |
+| ...  |  23.8     |           |              |               |
+| ...  |  23.8     |           |              |               |
+| ...  |  23.8     |           |              |               |
+| ...  |  23.8     |           |              |               |
+| ...  |  23.8     |           |              |               |
 
 Total: 
 
@@ -62,8 +70,6 @@ Total:
 
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
-## 5 Kontrollieren
-
 ### 5.1 Testprotokoll
 
 | TC-№ | Datum | Resultat | Tester |
@@ -72,16 +78,3 @@ Total:
 | ...  |       |          |        |
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
-
-### 5.2 Exploratives Testen
-
-| BR-№ | Ausgangslage | Eingabe | Erwartete Ausgabe | Tatsächliche Ausgabe |
-| ---- | ------------ | ------- | ----------------- | -------------------- |
-| I    |              |         |                   |                      |
-| ...  |              |         |                   |                      |
-
-✍️ Verwenden Sie römische Ziffern für Ihre Bug Reports, also I, II, III, IV etc.
-
-## 6 Auswerten
-
-✍️ Fügen Sie hier eine Verknüpfung zu Ihrem Lern-Bericht ein.
