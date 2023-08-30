@@ -48,16 +48,16 @@ In meinem Projekt werde ich ein Programm coden, wo man eine zufällige Zahl erra
 
 | AP-№ | Frist | Zuständig | Beschreibung | geplante Zeit |
 | ---- | ----- | --------- | ------------ | ------------- |
-| 1.A  | 23.8      |  Mirhan Özden         |  Geheimzahl wird ausgesucht.            |    45 Minuten           |
-| 2.A  |  23.8     | Mirhan Özden           |  Zahl kann eingegeben werden            |   20 Minuten            |
-| 3.A  |  23.8     |  Mirhan Özden          |  Geheimzahl wird erraten            |               |
-| 4.A  |  23.8     |  Mirhan Özden          |   Falls eingegebene Zahl zu grösser oder zu niedrig ist, wird dies gesagt           |   45 minuten            |
-| 5.A  |  23.8     |  Mirhan Özden          | Erkennen ob eine Zahl erraten wurde             |   45 Minuten            |
-| 6.A  |  30.8     |  Mirhan Özden          |  Mehrmals Zahlen eingeben            |  40 Minuten             |
-| 7.A  |  30.8     |  Mirhan Özden          |   Hintergrundfarbe ist weiss           | 5 Minuten              |
-| 8.A  |  30.8     |  Mirhan Özden          |   Schriftfarbe ist schwarz           |  5 Minuten             |
-| 9.A  |  30.8     |  Mirhan Özden          |  Falsche Eingaben werden abgefangen            |  50 Minuten             |
-|10.A|    30.8     |  Mirhan Özden          |   Name und Highscore wird angezeigt           |   50 Minuten            |
+| 1.A  | 23.8     |  Mirhan Özden          |  Geheimzahl wird ausgesucht.            |    45 Minuten           |
+| 2.A  | 23.8     | Mirhan Özden           |  Zahl kann eingegeben werden            |   20 Minuten            |
+| 3.A  | 23.8     |  Mirhan Özden          |  Geheimzahl wird erraten            |               |
+| 4.A  | 23.8     |  Mirhan Özden          |   Falls eingegebene Zahl zu grösser oder zu niedrig ist, wird dies gesagt           |   45 minuten            |
+| 5.A  | 23.8     |  Mirhan Özden          | Erkennen ob eine Zahl erraten wurde             |   45 Minuten            |
+| 6.A  | 30.8     |  Mirhan Özden          |  Mehrmals Zahlen eingeben            |  40 Minuten             |
+| 7.A  | 30.8     |  Mirhan Özden          |   Hintergrundfarbe ist weiss           | 5 Minuten              |
+| 8.A  | 30.8     |  Mirhan Özden          |   Schriftfarbe ist schwarz           |  5 Minuten             |
+| 9.A  | 30.8     |  Mirhan Özden          |  Falsche Eingaben werden abgefangen            |  50 Minuten             |
+|10.A  | 30.8     |  Mirhan Özden          |   Name und Highscore wird angezeigt           |   50 Minuten            |
 
 Total: 10
 
