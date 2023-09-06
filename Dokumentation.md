@@ -50,7 +50,7 @@ In meinem Projekt werde ich ein Programm coden, wo man eine zufällige Zahl erra
 | ---- | ----- | --------- | ------------ | ------------- |
 | 1.A  | 23.8     |  Mirhan Özden          |  Geheimzahl wird ausgesucht.            |    45 Minuten           |
 | 2.A  | 23.8     | Mirhan Özden           |  Zahl kann eingegeben werden            |   20 Minuten            |
-| 3.A  | 23.8     |  Mirhan Özden          |  Geheimzahl wird erraten            |               |
+| 3.A  | 23.8     |  Mirhan Özden          |  Geheimzahl kann erraten werden            |  30 Minuten             |
 | 4.A  | 23.8     |  Mirhan Özden          |   Falls eingegebene Zahl zu grösser oder zu niedrig ist, wird dies gesagt           |   45 minuten            |
 | 5.A  | 23.8     |  Mirhan Özden          | Erkennen ob eine Zahl erraten wurde             |   45 Minuten            |
 | 6.A  | 30.8     |  Mirhan Özden          |  Mehrmals Zahlen eingeben            |  40 Minuten             |
@@ -61,22 +61,24 @@ In meinem Projekt werde ich ein Programm coden, wo man eine zufällige Zahl erra
 
 Total: 10
 
-✍️ Die Nummer hat das Format `N.m`, wobei `N` die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und `m` von `A` an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer `2.C`.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: `Anzahl R-Sitzungen` ╳ `Anzahl Gruppenmitglieder` ╳ `4`. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf `2` ╳ `3` ╳`4` = `24` Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
-
 ## 3 Entscheiden
 
-✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
+Ich habe mich entschieden, ein Spiel zu programmieren, wo es darum geht eine Zahl zu erraten. Zum erraten gibt es Hilfe vom Program. Wie zum Beispiel ein Ton, je nachdem ob die eingegebene Zahl zu hoch oder zu niedrig ist. Es kommt auch ein Text vor, der sagt ob man zu hoch geraten hat oder zu niedrig. Schliesslich wenn man die Zahl erraten hat, kann man den Namen eingeben und man sieht die Highscoreliste.
 
 ## 4 Realisieren
 
 | AP-№ | Datum | Zuständig | geplante Zeit | tatsächliche Zeit |
 | ---- | ----- | --------- | ------------- | ----------------- |
-| 1.A  |       |           |               |                   |
-| ...  |       |           |               |                   |
-
-✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
+| 1.A  |  23.8      |  Mirhan         |    45 Minuten            |      50 Minuten             |
+| 2.A  |  23.8      |   Mirhan         |   20 Minuten            |       25 Minuten            |
+| 3.A  |  23.8      |  Mirhan          |   30 Minuten            |       35 Minuten            |
+| 4.A  |  23.8      |  Mirhan          |    45 minuten           |       40 Minuten            |
+| 5.A  |  23.8     |   Mirhan         |    45 minuten           |        40 Minuten           |
+| 6.A  |  30.8     |   Mirhan         |     40 Minuten           |       30 Minuten            |
+| 7.A  |  30.8     |   Mirhan         |       5 Minuten         |        5 Minuten           |
+| 8.A  |  30.8     |   Mirhan         |       5 Minuten         |        5 Minuten           |
+| 9.A  |  30.8     |   Mirhan         |       50 Minuten        |       50 Minuten            |
+| 10.A  |  30.8     |   Mirhan         |      50 Minuten         |      50 Minuten             |
 
 ### 5.1 Testprotokoll
 
