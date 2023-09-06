@@ -6,7 +6,6 @@ Mirhan Özden
 | ----- | ------- | ------------------------------------------------------------ |
 | 23.08      | 0.0.1   | Man kann erraten und die Geheime Zahl wird ausgesucht |
 | 30.8      | 0.0.2     |Während dem Raten gibt es Hilfe und es wird alles abgefangen, was ungültig ist.|
-|       | 1.0.0   |                                                              |
 
 ## 1 Informieren
 
@@ -84,16 +83,13 @@ Ich habe mich entschieden, ein Spiel zu programmieren, wo es darum geht eine Zah
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  | 06.09      |          | Mirhan       |
-| ...  | 06.09       |          |  Mirhan       |
-| ...  | 06.09       |          |  Mirhan       |
-| ...  | 06.09       |          |   Mirhan      |
-| ...  | 06.09       |          |   Mirhan      |
-| ...  | 06.09       |          |   Mirhan      |
-| ...  | 06.09       |          |   Mirhan      |
-| ...  | 06.09       |          |   Mirhan      |
-| ...  | 06.09       |          |    Mirhan     |
-| ...  | 06.09       |          |    Mirhan     |
-
-
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+| 1.1  | 06.09      |  funktioniert        | Mirhan       |
+| 2.1  | 06.09       |  funktioniert        |  Mirhan       |
+| 3.1  | 06.09       |  funktioniert        |  Mirhan       |
+|4.1  | 06.09       |    funktioniert      |   Mirhan      |
+| 5.1  | 06.09       |  funktioniert        |   Mirhan      |
+|6.1 | 06.09       |    funktioniert      |   Mirhan      |
+| 7.1  | 06.09       |  funktioniert        |   Mirhan      |
+|8.1 | 06.09       |  funktioniert        |   Mirhan      |
+| 9.1  | 06.09       |  funktioniert        |    Mirhan     |
+| 10.1 | 06.09       |  funktioniert        |    Mirhan     |
