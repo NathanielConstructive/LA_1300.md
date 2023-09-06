@@ -84,7 +84,16 @@ Ich habe mich entschieden, ein Spiel zu programmieren, wo es darum geht eine Zah
 
 | TC-№ | Datum | Resultat | Tester |
 | ---- | ----- | -------- | ------ |
-| 1.1  |       |          |        |
-| ...  |       |          |        |
+| 1.1  | 06.09      |          | Mirhan       |
+| ...  | 06.09       |          |  Mirhan       |
+| ...  | 06.09       |          |  Mirhan       |
+| ...  | 06.09       |          |   Mirhan      |
+| ...  | 06.09       |          |   Mirhan      |
+| ...  | 06.09       |          |   Mirhan      |
+| ...  | 06.09       |          |   Mirhan      |
+| ...  | 06.09       |          |   Mirhan      |
+| ...  | 06.09       |          |    Mirhan     |
+| ...  | 06.09       |          |    Mirhan     |
+
 
 ✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
